@@ -1,0 +1,56 @@
+.msg-no-dialog-icon {
+    font-size: 7em;
+    color: #eee;
+}
+.msg-avatar{
+    width: 70px;
+    height: 70px;
+    background: rgba(199,227,249,0.1);
+    padding: 2px;
+}
+.msg-list {
+    max-height: 100%;
+    overflow: auto;
+}
+.msg-list li {
+    padding: 10px;
+    margin-top: 0!important;
+    position: relative;
+}
+.msg-list li:hover {
+    background: #edf6fd;
+}
+.msg-list li:hover a {
+    text-decoration: none;
+}
+.msg-list li.uk-active {
+    background: #ffe7c6;
+}
+@media all and (min-width:740px) {
+    .chat-height {
+        height: 70vh;
+    }
+}
+.msg-scroll {
+    overflow-y: auto;
+    height:70%;
+    min-height: 320px;
+}
+.msg-scroll .msg-text {
+    word-break: break-all; 
+    word-wrap: break-word; 
+    white-space: pre; 
+    white-space: pre-wrap; 
+}
+#formsg .uk-grid{
+    padding: 20px; 
+    margin-top: 0;
+}
+#formsg .uk-grid:hover {
+    background: #fbfbfb;
+}
+#search-results.uk-active{
+    width: 500px;
+    height: 330px;
+    overflow-y: auto;
+}
